@@ -1,0 +1,27 @@
+@import "fonts";
+
+
+body {
+  
+  background: url("@img/windows-g43cc4d62b_1920.jpg") 0 0 no-repeat;
+  background-color: rgb(199, 119, 88);
+  span {
+    color: rgb(255, 254, 254);
+    background: url("@img/scale_1200.webp") 0 0 no-repeat;
+  }
+}
+
+@media (max-width: 700px) {
+  span {
+    font-size: 25px;
+  }
+  
+};
+
+
+@media (max-width: 700px) {
+  body {
+    background-color: red;
+  }
+  
+};
